@@ -23,8 +23,8 @@ function modelloaded() {
 
 function speak() {
     var synth = window.speechSynthesis;
-    speak_data1 = "the first prediction is" + p1;
-    speak_data2 = "the second prediction is" + p2;
+    speak_data1 = "the first prediction is " + p1;
+    speak_data2 = "and the second prediction is " + p2;
     var utter = new SpeechSynthesisUtterance(speak_data1 + speak_data2);
     synth.speak(utter);
 }
